@@ -1,0 +1,25 @@
+﻿{
+	"CreateBackup": false, 
+	"Batch": [
+		{
+			"Source": "C:\\views\\Develop\\App1\\Output\\Bin",
+			"Target": "C:\\Deploy\\App1\\Bin",
+			"Files": [
+				"App1.exe",
+				"App1.pdb",
+				"App1Common.dll",
+				"App1Common.pdb"
+			]
+		},
+		{
+			"Source": "C:\\views\\Develop\\App2\\Output\\Bin",
+			"Target": "C:\\Deploy\\App2\\Bin",
+			"Files": [
+				"App2.exe",
+				"App2.pdb",
+				"App2Common.dll",
+				"App2Common.pdb"
+			]
+		}
+	]
+}
